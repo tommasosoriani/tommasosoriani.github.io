@@ -81,6 +81,23 @@ a:hover {
   color: var(--color-link-hover);
 }
 
+.cv-button {
+  display: inline-block;
+  padding: 8px 14px;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  background: #f7f7f7;
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.cv-button:hover {
+  background: #efefef;
+  color: var(--color-link-hover);
+  text-decoration: none;
+}
+
 h2 {
   font-size: 22px;
   margin-top: 36px;
